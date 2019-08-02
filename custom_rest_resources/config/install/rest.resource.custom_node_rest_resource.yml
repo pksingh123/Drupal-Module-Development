@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - custom_rest_resources
+    - hal
+    - user
+id: custom_node_rest_resource
+plugin_id: custom_node_rest_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - hal_json
+  authentication:
+    - basic_auth
+    - cookie
