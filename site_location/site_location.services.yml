@@ -1,0 +1,9 @@
+services: 
+  site_location.currenttime:
+    class: Drupal\site_location\CurrentTimeBasedOnTimeZone
+    arguments: ['@datetime.time','@config.factory','@date.formatter']
+  cache_context.current_time:
+    class: Drupal\site_location\SiteLocationCacheContext
+    arguments: ['@datetime.time']
+    tags:
+      - { name: cache_context }

@@ -1,0 +1,9 @@
+name: Custom Site Location and Current time
+description: 'All Custom Site Location and Current timebased on timezone functionality'
+type: module
+package: Custom
+core: '8.x'
+dependencies:
+  - drupal:block
+  
+configure: site_location.settings

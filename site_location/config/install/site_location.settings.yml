@@ -1,0 +1,6 @@
+country:
+  default: ''
+city:
+  default: ''
+timezone:
+  default: ''
