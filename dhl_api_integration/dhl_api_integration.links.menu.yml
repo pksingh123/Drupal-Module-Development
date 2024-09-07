@@ -1,0 +1,5 @@
+dhl_api_integration.setting_link:
+ title: 'DHL configuration'
+ description: 'DHL Configuration.'
+ route_name: dhl_api_integration.dhl.config
+ parent: system.admin_config

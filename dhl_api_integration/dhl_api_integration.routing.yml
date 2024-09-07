@@ -1,0 +1,17 @@
+#DHL location finder
+dhl_api_integration.location_finder.form:
+  path: '/location-finder'
+  defaults:
+    _form: '\Drupal\dhl_api_integration\Form\DHLLocationFinderForm'
+    _title: 'DHL location finder'
+  requirements:
+    _permission: 'access content'
+    
+# DHL Configuration form
+dhl_api_integration.dhl.config:
+  path: '/admin/config/dhl'
+  defaults:
+    _form: '\Drupal\dhl_api_integration\Form\DHLConfigurationForm'
+    _title: 'DHL Configuration'
+  requirements:
+    _permission: 'administer site configuration'

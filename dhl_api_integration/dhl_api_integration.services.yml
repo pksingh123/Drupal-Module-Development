@@ -1,0 +1,5 @@
+services:
+  #DHL Http Client Services.
+  dhl.http_client:
+    class: Drupal\dhl_api_integration\Services\DHLHTTPClientServices
+    arguments: ['@http_client','@config.factory','@logger.factory']

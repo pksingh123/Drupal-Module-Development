@@ -1,0 +1,7 @@
+name: 'DHL API Integration'
+type: module
+description: 'DHL API Integration to develop for consuming the DHL API and extending its functionalities'
+core_version_requirement: ^10
+php: '>=8.2'
+package: 'DHL API Integration(Pksingh)'
+configure: 'dhl_api_integration.dhl.config'

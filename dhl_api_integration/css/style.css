@@ -1,0 +1,17 @@
+.location-results {
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.location-results h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.location-data {
+  font-family: monospace;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow: scroll;
+  background-color: #f9f9f9;
+}
