@@ -1,2 +1,2 @@
-# Drupal Custom Module Development with third parti integration
+# Drupal Custom Module Development with third-party integrations
 
